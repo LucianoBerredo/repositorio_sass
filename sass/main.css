@@ -7,7 +7,7 @@
 }
 
 #header .header_titulo {
-  color: white;
+  color: violet;
   text-align: center;
   padding-top: 20px;
   font-size: 25px;
@@ -44,11 +44,10 @@
 }
 
 p {
-  color: white;
+  color: violet;
 }
 
 a {
-  color: white;
   text-decoration: none;
 }
 
@@ -64,7 +63,7 @@ h2 {
 
 @-webkit-keyframes efecto {
   0% {
-    color: white;
+    color: violet;
     font-size: auto;
   }
   100% {
@@ -75,7 +74,7 @@ h2 {
 
 @keyframes efecto {
   0% {
-    color: white;
+    color: violet;
     font-size: auto;
   }
   100% {
@@ -99,7 +98,7 @@ h2 {
 
 .tituloh2 {
   background-color: black;
-  color: white;
+  color: violet;
   background-image: -webkit-gradient(linear, right top, left top, from(red), to(#bbbb14));
   background-image: linear-gradient(to left, red, #bbbb14);
 }
@@ -124,7 +123,7 @@ h2 {
 
 #video_home .btnPedir {
   font-size: 50px;
-  color: white;
+  color: violet;
   background-color: none;
   border: 5px solid white;
   padding: 15px;
@@ -146,8 +145,8 @@ h2 {
   text-align: center;
 }
 
-.footerh3 {
-  color: white;
+#footer .footerh3 {
+  color: violet;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   letter-spacing: 5px;
   display: -webkit-box;
@@ -163,7 +162,7 @@ h2 {
   margin-bottom: 0%;
 }
 
-footer .footerMapa {
+#footer .footerMapa {
   border: black 4px solid;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -256,7 +255,7 @@ h3 {
   margin-top: 0%;
   margin-bottom: 0%;
   background-color: black;
-  color: white;
+  color: violet;
   font-family: 'Cormorant Infant', serif;
   letter-spacing: 5px;
   text-align: center;
