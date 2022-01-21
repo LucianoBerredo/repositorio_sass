@@ -10,7 +10,7 @@ h2 {
 
 @keyframes efecto {
     0% {
-        color: $colorPrincipal;
+        color: $color;
         font-size: auto;
     }
     100% {
@@ -29,7 +29,7 @@ h2 {
 
 .tituloh2 {
     background-color: black;
-    color: $colorPrincipal;
+    color: $color;
     background-image: linear-gradient(to left, red,rgb(187, 187, 20));
 }
 
@@ -44,7 +44,7 @@ h2 {
 
 #video_home .btnPedir {
     font-size: 50px;
-    color: $colorPrincipal;
+    color: $color;
     background-color: none;
     border: 5px solid white;
     padding: 15px;

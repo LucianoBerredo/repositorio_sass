@@ -6,7 +6,7 @@
     background-size:cover;
 
     .header_titulo {
-        color: $colorPrincipal;
+        color:$color;
         text-align: center;
         padding-top: 20px;
         font-size: 25px;
@@ -40,7 +40,7 @@
 }
 
 p {
-    color: $colorPrincipal;
+    color:$color;
 }
 
 a {
