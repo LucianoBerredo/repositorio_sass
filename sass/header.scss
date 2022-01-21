@@ -1,0 +1,48 @@
+#header {
+    background-image: url(../img/hornopizza.jpg);
+    height: 400px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    .header_titulo {
+        color: $colorPrincipal;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 25px;
+        background-color: rgba(0, 0, 0, 0.514);
+        padding-bottom: 20px; 
+    }
+
+    .header_logo {
+        width: 50px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        padding-top: 25px;
+    }
+
+    .header_menu {
+        text-align: center;
+        font-size: 24px;
+        padding-top: 40px;
+    }
+
+    .header_menu ul li {
+        border: 1px solid none;
+        padding: 5px;
+        margin: 0 10px;
+        list-style: none;
+        display: inline; 
+        text-decoration: none; 
+    }
+}
+
+p {
+    color: $colorPrincipal;
+}
+
+a {
+    text-decoration: none;
+}

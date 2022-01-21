@@ -1,0 +1,94 @@
+h2 {
+  padding: 15px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: 'Cormorant Infant', serif;
+  letter-spacing: 5px;
+  text-align: center;
+  border: inset;
+}
+
+@-webkit-keyframes efecto {
+  0% {
+    color: white;
+    font-size: auto;
+  }
+  100% {
+    color: black;
+    font-size: 18px;
+  }
+}
+
+@keyframes efecto {
+  0% {
+    color: white;
+    font-size: auto;
+  }
+  100% {
+    color: black;
+    font-size: 18px;
+  }
+}
+
+.tituloh2 {
+  -webkit-animation-name: efecto;
+          animation-name: efecto;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.tituloh2 {
+  background-color: black;
+  color: white;
+  background-image: -webkit-gradient(linear, right top, left top, from(red), to(#bbbb14));
+  background-image: linear-gradient(to left, red, #bbbb14);
+}
+
+#video_home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  font-size: 60px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#video_home .btnPedir {
+  font-size: 50px;
+  color: white;
+  background-color: none;
+  border: 5px solid white;
+  padding: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -250px;
+  nav-left: 100px;
+  width: 300px;
+  height: auto;
+  -webkit-transition: width 3s;
+  transition: width 3s;
+  text-align: center;
+}
+
+#video_home .btnPedir:hover {
+  width: 400px;
+  height: auto;
+  background-color: #d84d16;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */
